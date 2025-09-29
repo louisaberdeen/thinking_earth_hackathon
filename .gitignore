@@ -1,2 +1,5 @@
 .venv
 data
+*.ckpt
+checkpoints/
+lightning_logs/
