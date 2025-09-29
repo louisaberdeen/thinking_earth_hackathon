@@ -1,0 +1,25 @@
+# Core ML/AI packages with CUDA support
+# Note: For CUDA support, you may need to install from PyTorch's index
+# Run: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# Or uncomment the specific CUDA version below:
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Hugging Face
+huggingface_hub
+
+# Geospatial and image processing
+rasterio
+kornia
+torchgeo
+terratorch
+
+# Visualization and image processing
+matplotlib
+opencv-python
+
+# Additional dependencies that might be needed
+numpy
+pillow
+ipykernel
